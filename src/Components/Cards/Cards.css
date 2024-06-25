@@ -49,3 +49,29 @@
     padding: 15px;
     border-radius: 6px;
 }
+@media (max-width:900px) {
+    .preview{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards-menu h3{
+        padding: 4px;
+        font-size:20px;
+    }
+    .cards h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:750px) {
+    .preview{
+        display: grid;
+       grid-template-columns: 1fr;
+    }
+    .cards-menu h3{
+        padding: 3px;
+        font-size: 15px;
+    }
+    .cards h1 {
+        font-size: 30px;
+    }
+}

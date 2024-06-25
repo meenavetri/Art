@@ -37,6 +37,23 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
+@media (max-width:900px) {
+    .hero img{
+        width: 250px;
+    }
+    .hero-center img{
+        height: 80px;
+    }
+    .letter1{
+        margin-bottom: 10px;
+    }
+    .letter2{
+        margin-bottom: 10px;
+    }
+    .hero{
+        margin:0 ;
+    }
+}
 
 @media (max-width:750px) {
     .hero-left{
@@ -45,19 +62,16 @@
     .hero-right{
         display: none;
     }
-    .hero-center{
-        align-items: center;
-        justify-content: center;
-    }
-    .hero-center img{
-        width: 400px;
-        height: 250px;
-    }
     .letter1{
-        margin-top: 10px;
         margin-bottom: 10px;
     }
     .letter2{
         margin-bottom: 10px;
+    }
+    .hero-center{
+        margin-bottom: 10px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
     }
 }
